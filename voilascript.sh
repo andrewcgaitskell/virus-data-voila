@@ -1,1 +1,1 @@
-voila --no-browser /home/ubuntu/voila/notebooks/
+voila --no-browser /home/ubuntu/voila_current/notebooks/

@@ -17,13 +17,13 @@ case when public.is_valid_date("Date") then "Date"::date else Null end "Date",
 "ActivityLong",
 "Activity",
 "ActivityGroup",
-prev_name,
-prev_category,
+next_name,
+next_category,
 newtask,
 case when is_valid_date(startdate) then "startdate"::date else Null end startdate,
 case when is_valid_date(enddate) then "enddate"::date else Null end enddate,
-prev_activity,
-case when is_valid_date(prev_date) then "prev_date"::date else Null end prev_date
+next_activity,
+case when is_valid_date(next_date) then "next_date"::date else Null end next_date
 into public."data_CovidTrackerGantt"
 FROM public."raw_CovidTrackerGantt";
 

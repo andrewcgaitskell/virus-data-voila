@@ -1,0 +1,9 @@
+conda install -c conda-forge bqplot
+conda install -c conda-forge networkx
+conda install -c conda-forge ipympl
+conda install -c conda-forge ipyvolume
+conda install -c conda-forge scipy
+conda install -c conda-forge voila
+conda install -c conda-forge ipyleaflet
+conda install -c conda-forge geopandas
+conda install -c conda-forge geoplot

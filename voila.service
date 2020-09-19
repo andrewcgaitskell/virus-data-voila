@@ -1,0 +1,14 @@
+ [Unit]
+ Description=Voila
+
+ [Service]
+ Type=simple
+ PIDFile=/run/voila.pid
+ ExecStart=/bin/bash /home/ubuntu/voila/voilascript.sh
+ User=ubuntu
+ WorkingDirectory=/home/ubuntu/
+ Restart=always
+ RestartSec=10
+
+ [Install]
+ WantedBy=multi-user.target

@@ -1,0 +1,86 @@
+﻿,ActivityLong,Activity,ActivityShort,ActivityGroup
+0,C1_School closing_ no measures ,No School Closures,No School Closures,School
+1,C1_Flag_ targeted ,C1_Flag_Targeted,C1_Flag_Targeted,School
+2,C2_Workplace closing_ no measures ,No Workplace Closures,No Workplace Closures,Workplace
+3,C2_Flag_ targeted ,C2_Flag_Targeted,C2_Flag_Targeted,Workplace
+4,C3_Cancel public events_ no measures ,No Public Event Closures,No Public Event Closures,Events
+5,C3_Flag_ targeted ,C3_Flag_Targeted,C3_Flag_Targeted,Events
+6,C4_Restrictions on gatherings_ no restrictions ,No Gathering Restrictions,No Gathering Restrictions,Gatherings
+7,C4_Flag_ targeted ,C4_Flag_Targeted,C4_Flag_Targeted,Gatherings
+8,C5_Close public transport_ no measures ,No Public Transport Closures,No Public Transport Closures,Transport
+9,C5_Flag_ targeted ,C5_Flag_Targeted,C5_Flag_Targeted,Transport
+10,C6_Stay at home requirements_ no measures ,No Stay At Home Measures,No Stay At Home Measures,Home
+11,C6_Flag_ targeted ,C6_Flag_Targeted,C6_Flag_Targeted,Home
+12,C7_Restrictions on internal movement_ no measures ,No Internal Movement Restrictions,No Internal Movement Restrictions,Movement
+13,C7_Flag_ targeted ,C7_Flag_Targeted,C7_Flag_Targeted,Movement
+14,C8_International travel controls_ no restrictions ,No International Travel Controls,No International Travel Controls,International
+17,E1_Income support` <br/>(for households)_ no income support ,No Income Support,No Income Support,Finance
+18,E1_Flag_ formal sector workers only ,Income Support Formal Sector,Income Support Formal Sector,Finance
+19,E2_Debt/contract relief` <br/>(for households)_ no debt/contract relief ,No Debt Contract Relief,No Debt Contract Relief,Finance
+20,H1_Public information campaigns_ no Covid,No Public Information Campaign,No Public Information Campaign,Campaign
+21,H1_Flag_ targeted ,H1_Flag_Targeted,H1_Flag_Targeted,Campaign
+22,H2_Testing policy_ no testing policy ,No Testing Policy,No Testing Policy,Testing
+23,H3_Contact tracing_ no contact tracing ,No Contact Tracing,No Contact Tracing,Tracing
+24,C1_School closing_ recommend closing ,School Closure Recommended,School Closure Recommended,School
+25,C1_Flag_ general ,C1_Flag_General,C1_Flag_General,School
+26,C2_Workplace closing_ recommend closing (or recommend work from home) ,Recommend WFH,Recommend WFH,Workplace
+27,C2_Flag_ general ,C2_Flag_General,C2_Flag_General,Workplace
+28,C3_Cancel public events_ recommend cancelling ,Recommend Public Event Closures,Recommend Public Event Closures,Events
+29,C3_Flag_ general ,C3_Flag_General,C3_Flag_General,Events
+30,C4_Restrictions on gatherings_ restrictions on very large gatherings (the limit is above 1000 people) ,Restrict Very Large Gatherings,Restrict Very Large Gatherings,Gatherings
+31,C4_Flag_ general ,C4_Flag_General,C4_Flag_General,Gatherings
+32,C5_Close public transport_ recommend closing (or significantly reduce volume/route/means of transport available) ,Reduce Public Transport,Reduce Public Transport,Transport
+33,C5_Flag_ general ,C5_Flag_General,C5_Flag_General,Transport
+34,C6_Stay at home requirements_ recommend not leaving house ,Recommend Not Leave Home,Recommend Not Leave Home,Home
+35,C6_Flag_ general ,C6_Flag_General,C6_Flag_General,Home
+36,C7_Restrictions on internal movement_ recommend not to travel between regions/cities ,Recommend Not Leave City,Recommend Not Leave City,Movement
+37,C7_Flag_ general ,C7_Flag_General,C7_Flag_General,Movement
+38,C8_International travel controls_ screening arrivals ,Screen International Arrivals,Screen International Arrivals,International
+39,"E1_Income support` <br/>(for households)_ government is replacing less than 50% of lost salary (or if a flat sum, it is less than 50% median salary) ",Income Support < 50%,Income Support < 50%,Finance
+40,E1_Flag_ transfers to informal sector workers too ,Transfer Informal Sector too,Transfer Informal Sector too,Finance
+41,"E2_Debt/contract relief` <br/>(for households)_ narrow relief, specific to one kind of contract ",Narrow Debt Relief,Narrow Debt Relief,Finance
+42,E3_Fiscal measures_ no new spending that day ,No New Govt Spending,No New Govt Spending,Finance
+43,E4_International support_ no new spending that day ,No New Internation Spending,No New Internation Spending,Finance
+44,H1_Public information campaigns_ public officials urging caution about Covid,Public Information Urge Caution,Public Information Urge Caution,Campaign
+45,H1_Flag_ general ,H1_Flag_General,H1_Flag_General,Campaign
+46,"H2_Testing policy_ only those who both (a) have symptoms AND (b) meet specific criteria (eg key workers, admitted to hospital, came into contact with a known case, returned from overseas) ",Test with Symptoms or Known Case Links,Test with Symptoms or Known Case Links,Testing
+47,H3_Contact tracing_ limited contact tracing; not done for all cases ,Limited Contact Tracing,Limited Contact Tracing,Tracing
+48,H4_Emergency investment in healthcare_ no new spending that day ,No New Spend on Healthcare,No New Spend on Healthcare,Healthcare
+49,H5_Investment in vaccines_ no new spending that day ,No New Spend on Vaccines,No New Spend on Vaccines,Vaccine
+50,"C1_School closing_ require closing (only some levels or categories, eg just high school, or just public schools) ",Require School Closures,Require School Closures,School
+51,C1_Flag_ no data ,C1_Flag_NoData,C1_Flag_NoData,School
+52,C2_Workplace closing_ require closing (or work from home) for some sectors or categories of workers ,Require Workplace Closures,Require Workplace Closures,Workplace
+53,C2_Flag_ no data ,C2_Flag_NoData,C2_Flag_NoData,Workplace
+54,C3_Cancel public events_ require cancelling ,Require Public Events Closures,Require Public Events Closures,Events
+55,C3_Flag_ no data ,C3_Flag_NoData,C3_Flag_NoData,Events
+56,C4_Restrictions on gatherings_ restrictions on gatherings between 101,Restrict Gatherings,Restrict Gatherings,Gatherings
+57,C4_Flag_ no data ,C4_Flag_NoData,C4_Flag_NoData,Gatherings
+58,C5_Close public transport_ require closing (or prohibit most citizens from using it) ,Close Public Transport,Close Public Transport,Transport
+59,C5_Flag_ no data ,C5_Flag_NoData,C5_Flag_NoData,Transport
+60,"C6_Stay at home requirements_ require not leaving house with exceptions for daily exercise, grocery shopping, and 'essential' trips ",Lockdown except 3 reasons,Lockdown except 3 reasons,Home
+61,C6_Flag_ no data ,C6_Flag_NoData,C6_Flag_NoData,Home
+62,C7_Restrictions on internal movement_ internal movement restrictions in place ,Restrict Internal Movements,Restrict Internal Movements,Movement
+63,C7_Flag_ no data ,C7_Flag_NoData,C7_Flag_NoData,Movement
+64,C8_International travel controls_ quarantine arrivals from some or all regions ,Quarantine Arrivals,Quarantine Arrivals,International
+65,"E1_Income support` <br/>(for households)_ government is replacing 50% or more of lost salary (or if a flat sum, it is greater than 50% median salary) ",Income Support > 50%,Income Support > 50%,Finance
+66,E1_Flag_ no data ,E1_Flag_NoData,E1_Flag_NoData,Finance
+67,E2_Debt/contract relief` <br/>(for households)_ broad debt/contract relief ,Broad Debt/Contract Relief,Broad Debt/Contract Relief,Finance
+68,E3_Fiscal measures_ no data ,No Fiscal Measures,No Fiscal Measures,Finance
+69,E4_International support_ no data ,No International Support,No International Support,Finance
+70,H1_Public information campaigns_ coordinated public information campaign (eg across traditional and social media) ,Public Information Campaign,Public Information Campaign,Campaign
+71,H1_Flag_ no data ,H1_Flag_NoData,H1_Flag_NoData,Campaign
+72,H2_Testing policy_ testing of anyone showing Covid,Test Anyone Showing Symptoms,Test Anyone Showing Symptoms,Testing
+73,H3_Contact tracing_ comprehensive contact tracing; done for all identified cases ,Comprehensive Contact Tracing,Comprehensive Contact Tracing,Tracing
+74,H4_Emergency investment in healthcare_ no data ,No Investment in Emergency Health,No Investment in Emergency Health,Healthcare
+75,H5_Investment in vaccines_ no data ,No Investment in Vaccines,No Investment in Vaccines,Vaccine
+76,C1_School closing_ require closing all levels ,Require All Schools Closed,Require All Schools Closed,School
+77,C2_Workplace closing_ require closing (or work from home) for all,Require All Workplace Closed,Require All Workplace Closed,Workplace
+78,C3_Cancel public events_ no data ,No Restrictions on Public Events,No Restrictions on Public Events,Events
+79,C4_Restrictions on gatherings_ restrictions on gatherings between 11,Restriction on Gatherings >11,Restriction on Gatherings >11,Gatherings
+80,C5_Close public transport_ no data ,No Restrictions on Public Transport,No Restrictions on Public Transport,Transport
+81,"C6_Stay at home requirements_ require not leaving house with minimal exceptions (eg allowed to leave once a week, or only one person can leave at a time, etc) ",Lockdown Minimal Exceptions,Lockdown Minimal Exceptions,Home
+82,C7_Restrictions on internal movement_ no data ,No Internal Movement Restrictions,No Internal Movement Restrictions,Movement
+83,C8_International travel controls_ ban arrivals from some regions ,Ban Certain International Arrivals,Ban Certain International Arrivals,International
+84,E1_Income support` <br/>(for households)_ no data ,No Income Support,No Income Support,Finance
+85,H1_Public information campaigns_ no data ,No Public Information Campaign,No Public Information Campaign,Campaign
+86,"H2_Testing policy_ open public testing (eg ""drive through"" testing available to asymptomatic people) ",Open Public Testing,Open Public Testing,Testing

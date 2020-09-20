@@ -5,8 +5,8 @@ DROP TABLE IF EXISTS public."raw_CDRTrends";
 CREATE TABLE public."raw_CDRTrends"
 (
     index bigint,
-    "Country/Region" text COLLATE pg_catalog."default",
-    "Country_State" text COLLATE pg_catalog."default",
+    "CountryName" text COLLATE pg_catalog."default",
+    "RegionName" text COLLATE pg_catalog."default",
     source text COLLATE pg_catalog."default",
     variable text COLLATE pg_catalog."default",
     value text COLLATE pg_catalog."default",

@@ -2,8 +2,8 @@ drop table if exists public."data_CDRTrends";
 
 SELECT
 index,
-"Country/Region",
-"Country_State",
+"CountryName",
+"RegionName",
 source,
 variable,
 value,

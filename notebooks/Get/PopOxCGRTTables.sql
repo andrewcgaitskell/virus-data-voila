@@ -37,6 +37,8 @@ SELECT
 index,
 "CountryName",
 "CountryCode",
+"RegionName",
+"RegionCode",
 case when public.is_valid_date("Date") then "Date"::date else Null end "Date",
 variable,
 case when public.is_valid_float("value") then "value"::float else Null end "value"

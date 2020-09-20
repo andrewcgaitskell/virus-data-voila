@@ -21,6 +21,8 @@ CREATE TABLE public."raw_OxCGRTData"
     index bigint,
     "CountryName" text COLLATE pg_catalog."default",
     "CountryCode" text COLLATE pg_catalog."default",
+    "RegionName" text COLLATE pg_catalog."default",
+    "RegionCode" text COLLATE pg_catalog."default",
     "Date" text COLLATE pg_catalog."default",
     variable text COLLATE pg_catalog."default",
     value text COLLATE pg_catalog."default"

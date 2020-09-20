@@ -4,6 +4,8 @@ SELECT
 index,
 "CountryName",
 "CountryCode",
+"RegionName",
+"RegionCode",
 case when public.is_valid_date("Date") then "Date"::date else Null end "Date",
 "Name",
 "Category_x",

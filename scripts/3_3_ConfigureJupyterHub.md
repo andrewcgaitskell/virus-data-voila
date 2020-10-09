@@ -57,7 +57,7 @@ Finally, we need to make systemd aware of our service file.
 
 First we symlink our file into systemd’s directory:
 
-sudo ln -s /home/ubuntu/voila/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
+sudo ln -s /home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
 
 
 Then tell systemd to reload its configuration files

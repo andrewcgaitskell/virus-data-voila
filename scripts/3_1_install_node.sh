@@ -4,4 +4,4 @@ DISTRO=linux-x64
 sudo mkdir -p /usr/local/lib/nodejs
 tar -xzvf node-$VERSION-$DISTRO.tar.gz -C /usr/local/lib/nodejs 
 
-source 3_3_setpath.sh
+source 3_2_setpath.sh

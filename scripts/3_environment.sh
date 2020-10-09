@@ -13,4 +13,13 @@ pip3 install seaborn
 
 pip3 install jupyterhub
 pip3 install jupyterlab
+pip3 install notebook
+
 pip3 install wheel
+
+pip3 install ipywidgets
+
+jupyter nbextension enable --py widgetsnbextension
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+

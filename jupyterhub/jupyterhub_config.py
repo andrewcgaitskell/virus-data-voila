@@ -665,8 +665,8 @@
 #    navigate the whole filesystem from their notebook server, but still start in their home directory.
 #  - Start with `/notebooks` instead of `/tree` if `default_url` points to a notebook instead of a directory.
 #  - You can set this to `/lab` to have JupyterLab start by default, rather than Jupyter Notebook.
-c.Spawner.default_url = '/lab'
-
+c.Spawner.default_url = '/tree/home/{username}'
+c.Spawner.notebook_dir = '/'
 
 ## Disable per-user configuration of single-user servers.
 #  
@@ -868,7 +868,7 @@ c.Spawner.default_url = '/lab'
 #  Admin access should be treated the same way root access is.
 #  
 #  Defaults to an empty set, in which case no user has admin access.
-#c.Authenticator.admin_users = set()
+c.Authenticator.admin_users = {'sweep2oo','sweep0ne'}
 
 ## The max age (in seconds) of authentication info before forcing a refresh of
 #  user auth info.
@@ -981,7 +981,7 @@ c.Spawner.default_url = '/lab'
 #  restrictions the authenticator has in place.
 #  
 #  If empty, does not perform any additional restriction.
-#c.Authenticator.whitelist = set()
+c.Authenticator.whitelist = {'sweep2oo','sweep0ne'}
 
 #------------------------------------------------------------------------------
 # CryptKeeper(SingletonConfigurable) configuration

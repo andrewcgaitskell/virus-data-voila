@@ -30,9 +30,9 @@ Further configuration options may be found in the documentation.
 
 We will setup JupyterHub to run as a system service using Systemd (which is responsible for managing all services and servers that run on startup in Ubuntu). We will create a service file in a suitable location in the virtualenv folder and then link it to the system services. First create the folder for the service file:
 
+============ ignore from here ==============
 sudo mkdir -p /opt/jupyterhub/etc/systemd
 
-============ ignore from here ==============
 Then create the following text file using your favourite editor at
 
 /home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service
@@ -58,7 +58,7 @@ Finally, we need to make systemd aware of our service file.
 
 Create symlink our file into systemd’s directory:
 
-sudo ln -s /home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
+sudo ln -s /home/jupyterlab/voila_current/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
 
 Then tell systemd to reload its configuration files
 

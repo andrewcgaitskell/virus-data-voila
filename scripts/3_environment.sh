@@ -10,6 +10,7 @@ pip3 install ipyvolume
 pip3 install ipyleaflet
 pip3 install geopandas
 pip3 install seaborn
+pip3 install descartes
 
 pip3 install jupyterhub
 pip3 install jupyterlab

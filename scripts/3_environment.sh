@@ -1,24 +1,24 @@
-pip3 install wget
-pip3 install sqlalchemy
-pip3 install psycopg2
-pip3 install networkx
-pip3 install ipympl
-pip3 install scipy
-pip3 install voila
-pip3 install bqplot
-pip3 install ipyvolume
-pip3 install ipyleaflet
-pip3 install geopandas
-pip3 install seaborn
-pip3 install descartes
+pip3 install -U wget
+pip3 install -U sqlalchemy
+pip3 install -U psycopg2
+pip3 install -U networkx
+pip3 install -U ipympl
+pip3 install -U scipy
+pip3 install -U voila
+pip3 install -U bqplot
+pip3 install -U ipyvolume
+pip3 install -U ipyleaflet
+pip3 install -U geopandas
+pip3 install -U seaborn
+pip3 install -U descartes
 
-pip3 install jupyterhub
-pip3 install jupyterlab
-pip3 install notebook
+pip3 install -U jupyterhub
+pip3 install -U jupyterlab
+pip3 install -U notebook
 
-pip3 install wheel
+pip3 install -U wheel
 
-pip3 install ipywidgets
+pip3 install -U ipywidgets
 
 jupyter nbextension enable --py widgetsnbextension
 

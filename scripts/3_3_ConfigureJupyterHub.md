@@ -32,33 +32,33 @@ We will setup JupyterHub to run as a system service using Systemd (which is resp
 
 sudo mkdir -p /opt/jupyterhub/etc/systemd
 
+============ ignore from here ==============
 Then create the following text file using your favourite editor at
 
-/opt/jupyterhub/etc/systemd/jupyterhub.service
+/home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service
 
 Paste the following service unit definition into the file:
 
 [Unit]
-Description=JupyterHub
-After=syslog.target network.target
+Description=JupyterHub After=syslog.target network.target
 
 [Service]
 User=root
-Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/jupyterhub/bin"
-ExecStart=/opt/jupyterhub/bin/jupyterhub -f /opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py
+Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+ExecStart=/bin/bash /home/ubuntu/voila_current/jupyterhub/systemd/runhub.sh
 
 [Install]
 WantedBy=multi-user.target
-
 
 This sets up the environment to use the virtual environment we created, tells Systemd how to start jupyterhub using the configuration file we created, specifies that jupyterhub will be started as the root user (needed so that it can start jupyter on behalf of other logged in users), and specifies that jupyterhub should start on boot after the network is enabled.
 
 Finally, we need to make systemd aware of our service file.
 
-First we symlink our file into systemd’s directory:
+================= to here =================
+
+Create symlink our file into systemd’s directory:
 
 sudo ln -s /home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
-
 
 Then tell systemd to reload its configuration files
 

@@ -1,2 +1,2 @@
-jupyterhub -f /home/ubuntu/voila_current/jupyterhub/jupyterhub_config.py
+jupyterhub -f /home/jupyterlab/voila_current/jupyterhub/jupyterhub_config.py
 

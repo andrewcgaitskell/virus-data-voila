@@ -868,7 +868,7 @@ c.Spawner.notebook_dir = '/'
 #  Admin access should be treated the same way root access is.
 #  
 #  Defaults to an empty set, in which case no user has admin access.
-c.Authenticator.admin_users = {'sweep2oo','sweep0ne'}
+c.Authenticator.admin_users = {'sweep2oo','sweep0ne','jupyterlab'}
 
 ## The max age (in seconds) of authentication info before forcing a refresh of
 #  user auth info.
@@ -981,7 +981,7 @@ c.Authenticator.admin_users = {'sweep2oo','sweep0ne'}
 #  restrictions the authenticator has in place.
 #  
 #  If empty, does not perform any additional restriction.
-c.Authenticator.whitelist = {'sweep2oo','sweep0ne'}
+c.Authenticator.whitelist = {'sweep2oo','sweep0ne','jupyterlab'}
 
 #------------------------------------------------------------------------------
 # CryptKeeper(SingletonConfigurable) configuration

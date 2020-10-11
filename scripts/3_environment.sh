@@ -11,7 +11,7 @@ pip3 install -U ipyleaflet
 pip3 install -U geopandas
 pip3 install -U seaborn
 pip3 install -U descartes
-pip3 install -U shapefile
+pip3 install -U PyShp
 
 pip3 install -U jupyterhub
 pip3 install -U jupyterlab

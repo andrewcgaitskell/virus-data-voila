@@ -5,7 +5,7 @@
 
 sed 's/UK/GB/' test.txt > newfile.txt
 
-sed 's/127.0.0.1/0.0.0.0/' /etc/postgresql/10/main/pg_hba.conf > /etc/postgresql/10/main/pg_hba_new.conf
+sed 's+127.0.0.1/32+0.0.0.0/0+' /etc/postgresql/10/main/pg_hba.conf > /etc/postgresql/10/main/pg_hba_new.conf
 
 
 #Edit note name with double quotation e.g. "webserver01".

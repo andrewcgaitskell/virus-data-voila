@@ -1,9 +1,9 @@
-apt install python-software-properties
+sudo apt install python-software-properties
 
-apt install software-properties-common
+sudo apt install software-properties-common
 
-apt install python3
-apt install python3-dev
-apt install libpq-dev
+sudo apt install python3
+sudo apt install python3-dev
+sudo apt install libpq-dev
 
-apt install python3-pip
+sudo apt install python3-pip

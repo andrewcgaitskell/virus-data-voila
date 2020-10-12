@@ -39,4 +39,4 @@ pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --sys-prefix
 python -m ipykernel install --user --name=env
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
+##jupyter labextension install @jupyter-widgets/jupyterlab-manager

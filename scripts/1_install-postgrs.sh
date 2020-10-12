@@ -1,11 +1,11 @@
-apt update
-apt upgrade -y
+sudo apt update
+sudo apt upgrade -y
 
-apt install sudo
+sudo apt install sudo
 
-apt install -y software-properties-common
-apt install -y postgresql-10
-apt install -y postgresql-client-10
+sudo apt install -y software-properties-common
+sudo apt install -y postgresql-10
+sudo apt install -y postgresql-client-10
 
 sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'postgres';"
 
@@ -19,8 +19,8 @@ printf "CREATE ROLE pythonuser WITH LOGIN SUPERUSER INHERIT CREATEDB CREATEROLE 
 
 sudo -u postgres psql -f createuserdb.sql
 
-echo "host all  all    0.0.0.0/0 md5" >> /etc/postgresql/10/main/pg_hba.conf
+sudo echo "host all  all    0.0.0.0/0 md5" >> /etc/postgresql/10/main/pg_hba.conf
 
-echo "listen_addresses='*'" >> /etc/postgresql/10/main/postgresql.conf
+sudo echo "listen_addresses='*'" >> /etc/postgresql/10/main/postgresql.conf
 
-service postgresql restart
+sudo service postgresql restart

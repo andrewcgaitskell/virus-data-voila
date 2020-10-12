@@ -1,3 +1,5 @@
+pip install -U wheel
+
 pip install -U wget
 pip install -U sqlalchemy
 pip install -U psycopg2
@@ -28,7 +30,6 @@ pip install https://github.com/matplotlib/basemap/archive/master.zip
 ######## to here ########
 
 
-pip install -U wheel
 
 pip install -U ipywidgets
 

@@ -9,3 +9,5 @@ sudo sed -i 's+host    all             all             127.0.0.1/32            m
 
 ##sudo sed 's+#listen_addresses = '\''localhost'\''         # what IP address(es) to listen on;+listen_addresses = '\''*'\''         # what IP address(es) to listen on;+' /etc/postgresql/10/main/postgresql.conf > /etc/postgresql/10/main/postgresql_new.conf
 sudo sed -i 's+#listen_addresses = '\''localhost'\''         # what IP address(es) to listen on;+listen_addresses = '\''*'\''         # what IP address(es) to listen on;+' /etc/postgresql/10/main/postgresql.conf
+
+sudo service postgresql restart

@@ -9,11 +9,11 @@ DROP TABLE IF EXISTS public."raw_LSOATrends";
 CREATE TABLE public."raw_LSOATrends"
 (
     index bigint,
-    "LSOA11_CD" text COLLATE pg_catalog."default",
-    "LSOA11_NM" text COLLATE pg_catalog."default",
-    WeekAsText text COLLATE pg_catalog."default",
-    Cases text COLLATE pg_catalog."default",
-    Week text COLLATE pg_catalog."default"
+    "lsoa11_cd" text COLLATE pg_catalog."default",
+    "lsoa11_nm" text COLLATE pg_catalog."default",
+    weekastext text COLLATE pg_catalog."default",
+    cases text COLLATE pg_catalog."default",
+    week text COLLATE pg_catalog."default"
 )
 WITH (
     OIDS = FALSE

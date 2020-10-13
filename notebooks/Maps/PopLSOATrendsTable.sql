@@ -4,11 +4,11 @@ drop table if exists public."data_LSOATrends";
 
 SELECT
 index,
-"losa11_cd",
-"lsoa11_nm",
-WeekAsText,
+lsoa11_cd,
+lsoa11_nm,
+weekastext,
 case when public.is_valid_int("cases") then "cases"::integer else 0 end "cases",
-case when public.is_valid_int("week") then "cases"::integer else 0 end "week"
+case when public.is_valid_int("week") then "week"::integer else 0 end "week"
 into public."data_LSOATrends"
 FROM public."raw_LSOATrends";
 

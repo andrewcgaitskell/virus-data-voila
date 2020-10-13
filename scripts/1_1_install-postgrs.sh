@@ -19,3 +19,5 @@ sudo printf "CREATE ROLE pythonuser WITH LOGIN SUPERUSER INHERIT CREATEDB CREATE
 
 sudo -u postgres psql -f createuserdb.sql
 
+sudo apt install postgis
+

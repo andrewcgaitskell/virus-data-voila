@@ -7,14 +7,21 @@ DROP TABLE IF EXISTS public."raw_ew_lsoapolys";
 
 CREATE TABLE public."raw_ew_lsoapolys"
 (
-    index bigint,
+    index text COLLATE pg_catalog."default",
     "OBJECTID" text COLLATE pg_catalog."default",
     "LSOA11CD" text COLLATE pg_catalog."default",
     "LSOA11NM" text COLLATE pg_catalog."default",
-    "LSOA11NMW" text COLLATE pg_catalog."default",
     "Shape__Are" text COLLATE pg_catalog."default",
     "Shape__Len" text COLLATE pg_catalog."default",
-    "geometry" text COLLATE pg_catalog."default"
+    "geometry" text COLLATE pg_catalog."default",
+    "MSOA11CD" text COLLATE pg_catalog."default",
+    "MSOA11NM" text COLLATE pg_catalog."default",
+    "LAD17NM" text COLLATE pg_catalog."default",
+    "LAD17CD" text COLLATE pg_catalog."default",
+    "RGN11CD" text COLLATE pg_catalog."default",
+    "RGN11NM" text COLLATE pg_catalog."default",
+    "CTRY11CD" text COLLATE pg_catalog."default",
+    "CTRY11NM" text COLLATE pg_catalog."default"
 )
 WITH (
     OIDS = FALSE

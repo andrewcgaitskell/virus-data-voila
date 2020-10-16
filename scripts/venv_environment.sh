@@ -16,6 +16,8 @@ pip install -U descartes
 pip install -U PyShp
 pip install -U geoalchemy2
 
+pip3 install -U pygeos
+
 pip install -U jupyterhub
 pip install -U jupyterlab
 ##pip install -U notebook

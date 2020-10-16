@@ -10,13 +10,14 @@ pip install -U voila
 pip install -U bqplot
 pip install -U ipyvolume
 pip install -U ipyleaflet
+pip install -U ipympl
 pip install -U geopandas
 pip install -U seaborn
 pip install -U descartes
 pip install -U PyShp
 pip install -U geoalchemy2
 
-pip3 install -U pygeos
+pip install -U pygeos
 
 pip install -U jupyterhub
 pip install -U jupyterlab

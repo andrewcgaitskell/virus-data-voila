@@ -1,8 +1,11 @@
+all run as jupyterlab user
+
 pip3 install virtualenv
-cd /home/ubuntu/voila
 
-virtualenv env
+python -m venv env
 
-source env/bin/activate
+source /home/jupyterlab/env/bin/activate
 
 cd /home/ubuntu/voila/scripts
+
+bash venv_environment.sh

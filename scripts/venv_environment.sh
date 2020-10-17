@@ -25,11 +25,11 @@ pip install -U jupyterlab
 
 ########## to install basemap ###### from here
 
-sudo apt install libgeos-3.6.2
-sudo apt install libgeos-dev
-sudo apt install libgeos-c1v5
+##sudo apt install libgeos-3.6.2
+##sudo apt install libgeos-dev
+##sudo apt install libgeos-c1v5
 
-pip install https://github.com/matplotlib/basemap/archive/master.zip
+##pip install https://github.com/matplotlib/basemap/archive/master.zip
 
 ######## to here ########
 

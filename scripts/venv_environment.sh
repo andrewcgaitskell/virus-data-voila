@@ -10,6 +10,7 @@ pip install -U voila
 pip install -U bqplot
 pip install -U ipyvolume
 pip install -U ipyleaflet
+pip install -U folium
 pip install -U ipympl
 pip install -U geopandas
 pip install -U seaborn

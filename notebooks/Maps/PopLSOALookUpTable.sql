@@ -25,3 +25,13 @@ FROM public.raw_lsoalookup;
 
 ALTER TABLE public."data_lsoalookup"
     OWNER to pythonuser;
+    
+    
+drop table if exists public.data_msoalookup;
+
+SELECT distinct "MSOA11CD", "MSOA11NM", "LAD17CD", "LAD17NM",
+"LACCD", "LACNM", "RGN11CD", "RGN11NM", "CTRY11CD", "CTRY11NM" into public.data_msoalookup
+FROM public.data_lsoalookup;
+
+ALTER TABLE public."data_msoalookup"
+    OWNER to pythonuser;

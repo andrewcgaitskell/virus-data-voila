@@ -14,7 +14,7 @@ select a.* into public.ref_parentchild from
 --"MSOA11NM",
 --"LSOA11CD",
 --"LSOA11NM"
-FROM public.data_lsoalookup
+FROM public.data_msoalookup
 union
 SELECT distinct
 --"CTRY11CD" as parent_code,
@@ -29,7 +29,7 @@ SELECT distinct
 --"MSOA11NM",
 --"LSOA11CD",
 --"LSOA11NM"
-FROM public.data_lsoalookup
+FROM public.data_msoalookup
 union
 SELECT distinct
 --"CTRY11CD" as parent_code,
@@ -44,19 +44,5 @@ SELECT distinct
 3 as focus_level_number
 --"LSOA11CD",
 --"LSOA11NM"
-FROM public.data_lsoalookup
-union
-SELECT distinct
---"CTRY11CD" as parent_code,
---"CTRY11NM" as parent_name,
---"RGN11CD" as parent_code,
---"RGN11NM" as parent_name,
---"LAD17CD" as parent_code,
---"LAD17NM" as parent_name,
-"MSOA11CD" as parent_name,
-"MSOA11NM" as parent_code,
-"LSOA11CD" as child_code,
-"LSOA11NM" as child_code,
-'MSOA' as focus_level_name,
-4 as focus_level_number
-FROM public.data_lsoalookup) a
+FROM public.data_msoalookup
+) a

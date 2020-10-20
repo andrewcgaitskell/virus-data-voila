@@ -18,6 +18,7 @@ pip install -U seaborn
 pip install -U descartes
 pip install -U PyShp
 pip install -U geoalchemy2
+pip install -U color
 
 pip install -U pygeos
 

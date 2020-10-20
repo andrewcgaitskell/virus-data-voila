@@ -52,28 +52,9 @@ FROM public.data_lsoalookup;
 
 drop table if exists public.ref_msoa_names;
 
-SELECT distinct
---"OA11CD",
---"OAC11CD",
---"OAC11NM",
---"LSOA11CD",
---"LSOA11NM",
---"SOAC11CD",
---"SOAC11NM",
-"MSOA11CD" as code,
-"MSOA11NM" as name
---"LAD17CD",
---"LAD17NM",
---"LACCD",
---"LACNM",
---"RGN11CD",
---"RGN11NM",
---"CTRY11CD"--,
---"CTRY11NM"--,
---"FID"
-into public.ref_msoa_names
-FROM public.data_lsoalookup;
+SELECT distinct code, name into public.ref_msoa_names  FROM public."data_MSOATrends";
 
+--- better names
 
 -- lad names
 

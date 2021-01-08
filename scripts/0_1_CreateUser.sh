@@ -1,2 +1,2 @@
-adduser jupyterlab
-usermod -aG sudo jupyterlab
+adduser webuser
+usermod -aG sudo webuser

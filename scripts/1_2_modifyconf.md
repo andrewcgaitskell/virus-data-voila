@@ -7,3 +7,7 @@
     sudo nano /etc/postgresql/10/main/postgresql.conf
 
     sudo service postgresql restart
+
+    open firewall port 5432
+    
+    

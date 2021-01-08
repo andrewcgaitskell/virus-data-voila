@@ -1,17 +1,3 @@
-The following works if you are using text files as your data storage medium.
-
-I envolved into needing to use Postgrsql.
-
-There are some scripts to run to:
-
-install Postgrsql, Python, Python Libraries
-then Load the Data from the various sources
-then enable Nginx
-
-into a newly created Google Cloud Platform Virtual Machine.
-
-https://github.com/andrewcgaitskell/voila/tree/master/scripts
-
 # Running voila on a private server
 
 started with:

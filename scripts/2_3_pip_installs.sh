@@ -32,6 +32,6 @@ pip install -U wheel
 
 pip install -U ipywidgets
 
-jupyter nbextension enable --py widgetsnbextension
+sudo jupyter nbextension enable --py widgetsnbextension
 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
+sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager

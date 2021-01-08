@@ -36,7 +36,7 @@ First create the folder for the service file:
 
 Create symlink our file into systemd’s directory:
 
-sudo ln -s /var/www/virus-data-voila/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
+sudo ln -s /home/webuser/virus-data-voila/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
 
 Then tell systemd to reload its configuration files
 

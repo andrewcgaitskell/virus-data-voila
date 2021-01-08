@@ -1,3 +1,2 @@
-source /home/jupyterlab/env/bin/activate
-jupyterhub -f /home/jupyterlab/voila_current/jupyterhub/jupyterhub_config.py
+jupyterhub -f /home/webuser/virus-data-voila/jupyterhub/jupyterhub_config.py
 

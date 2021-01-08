@@ -1,20 +1,20 @@
-pip3 install -U wget
-pip3 install -U sqlalchemy
-sudo pip3 install -U psycopg2
-sudo pip3 install -U networkx
-sudo pip3 install -U ipympl
-sudo pip3 install -U scipy
-sudo pip3 install -U voila
-sudo pip3 install -U bqplot
-sudo pip3 install -U ipyvolume
-sudo pip3 install -U ipyleaflet
-sudo pip3 install -U geopandas
-sudo pip3 install -U seaborn
-sudo pip3 install -U descartes
-sudo pip3 install -U PyShp
+pip install -U wget
+pip install -U sqlalchemy
+pip install -U psycopg2
+pip install -U networkx
+pip install -U ipympl
+pip install -U scipy
+pip install -U voila
+pip install -U bqplot
+pip install -U ipyvolume
+pip install -U ipyleaflet
+pip install -U geopandas
+pip install -U seaborn
+pip install -U descartes
+pip install -U PyShp
 
-sudo pip3 install -U jupyterhub
-sudo pip3 install -U jupyterlab
+pip install -U jupyterhub
+pip install -U jupyterlab
 ##pip3 install -U notebook
 
 ########## to install basemap ###### from here
@@ -23,15 +23,15 @@ sudo apt install libgeos-3.6.2
 sudo apt install libgeos-dev
 sudo apt install libgeos-c1v5
 
-sudo pip3 install https://github.com/matplotlib/basemap/archive/master.zip
+pip install https://github.com/matplotlib/basemap/archive/master.zip
 
 ######## to here ########
 
 
-sudo pip3 install -U wheel
+pip install -U wheel
 
-sudo pip3 install -U ipywidgets
+pip install -U ipywidgets
 
-sudo jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable --py widgetsnbextension
 
-sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @jupyter-widgets/jupyterlab-manager

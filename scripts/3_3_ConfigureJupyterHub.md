@@ -16,7 +16,9 @@ Then generate the default configuration file
 
 sudo /opt/jupyterhub/bin/jupyterhub --generate-config
 
-This will produce the default configuration file /opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py
+This will produce the default configuration file
+
+/opt/jupyterhub/etc/jupyterhub/jupyterhub_config.py
 
 You will need to edit the configuration file to make the JupyterLab interface by the default.
 
@@ -28,37 +30,13 @@ Further configuration options may be found in the documentation.
 
 ## Setup Systemd Service
 
-We will setup JupyterHub to run as a system service using Systemd (which is responsible for managing all services and servers that run on startup in Ubuntu). We will create a service file in a suitable location in the virtualenv folder and then link it to the system services. First create the folder for the service file:
+We will setup JupyterHub to run as a system service using Systemd (which is responsible for managing all services and servers that run on startup in Ubuntu). We will create a service file in a suitable location in the virtualenv folder and then link it to the system services.
 
-============ ignore from here ==============
-sudo mkdir -p /opt/jupyterhub/etc/systemd
-
-Then create the following text file using your favourite editor at
-
-/home/ubuntu/voila_current/jupyterhub/systemd/jupyterhub.service
-
-Paste the following service unit definition into the file:
-
-[Unit]
-Description=JupyterHub After=syslog.target network.target
-
-[Service]
-User=root
-Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
-ExecStart=/bin/bash /home/jupyterlab/voila_current/jupyterhub/systemd/runhub.sh
-
-[Install]
-WantedBy=multi-user.target
-
-This sets up the environment to use the virtual environment we created, tells Systemd how to start jupyterhub using the configuration file we created, specifies that jupyterhub will be started as the root user (needed so that it can start jupyter on behalf of other logged in users), and specifies that jupyterhub should start on boot after the network is enabled.
-
-Finally, we need to make systemd aware of our service file.
-
-================= to here =================
+First create the folder for the service file:
 
 Create symlink our file into systemd’s directory:
 
-sudo ln -s /home/jupyterlab/voila_current/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
+sudo ln -s /var/www/virus-data-voila/jupyterhub/systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
 
 Then tell systemd to reload its configuration files
 

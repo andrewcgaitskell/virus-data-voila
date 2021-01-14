@@ -1,3 +1,5 @@
+sudo pip3 install -U wheel
+
 sudo pip3 install -U wget
 sudo pip3 install -U sqlalchemy
 sudo pip3 install -U psycopg2
@@ -28,7 +30,7 @@ sudo pip3 install https://github.com/matplotlib/basemap/archive/master.zip
 ######## to here ########
 
 
-sudo pip3 install -U wheel
+
 
 sudo pip3 install -U ipywidgets
 

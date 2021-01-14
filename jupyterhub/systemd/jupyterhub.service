@@ -4,7 +4,7 @@ Description=JupyterHub After=syslog.target network.target
 [Service]
 User=root
 Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
-ExecStart=/bin/bash /home/jupterlab/virus-data-voila/jupyterhub/systemd/runhub.sh
+ExecStart=/bin/bash /home/jupyterlab/virus-data-voila/jupyterhub/systemd/runhub.sh
 
 [Install]
 WantedBy=multi-user.target

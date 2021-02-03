@@ -1,1 +1,1 @@
-voila --no-browser /home/ubuntu/voila_current/notebooks/
+voila --no-browser /home/jupyterlab/virus-data-voila/notebooks/

@@ -4,9 +4,9 @@
  [Service]
  Type=simple
  PIDFile=/run/voila.pid
- ExecStart=/bin/bash /home/ubuntu/voila_current/voilascript.sh
- User=ubuntu
- WorkingDirectory=/home/ubuntu/
+ ExecStart=/bin/bash /home/jupyterlab/virus-data-voila/scripts/voilascript.sh
+ User=root
+ WorkingDirectory=/home/jupyterlab/
  Restart=always
  RestartSec=10
 
